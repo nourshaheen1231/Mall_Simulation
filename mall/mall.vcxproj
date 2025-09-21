@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A629039-0AA1-483F-8E30-1C0F45D1B98D}</ProjectGuid>
+    <RootNamespace>mall</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GLAUX.lib;GLU32.lib;glut.lib;OPENGL32.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3DTexture.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Model_3DS.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3DTexture.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="CameraController.h" />
+    <ClInclude Include="Model_3DS.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Wave.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="b2.bmp" />
+    <Image Include="b3.bmp" />
+    <Image Include="bag1.bmp" />
+    <Image Include="bag2.bmp" />
+    <Image Include="bag3.bmp" />
+    <Image Include="bag4.bmp" />
+    <Image Include="bag5.bmp" />
+    <Image Include="bag6.bmp" />
+    <Image Include="bark_loo.bmp" />
+    <Image Include="bat.bmp" />
+    <Image Include="bg1.bmp" />
+    <Image Include="bg2.bmp" />
+    <Image Include="bg3.bmp" />
+    <Image Include="bg5.bmp" />
+    <Image Include="bg6.bmp" />
+    <Image Include="bg7.bmp" />
+    <Image Include="bg8.bmp" />
+    <Image Include="block.bmp" />
+    <Image Include="box1.bmp" />
+    <Image Include="box10.bmp" />
+    <Image Include="box11.bmp" />
+    <Image Include="box12.bmp" />
+    <Image Include="box13.bmp" />
+    <Image Include="box14.bmp" />
+    <Image Include="box15.bmp" />
+    <Image Include="box2.bmp" />
+    <Image Include="box3.bmp" />
+    <Image Include="box4.bmp" />
+    <Image Include="box5.bmp" />
+    <Image Include="box6.bmp" />
+    <Image Include="box7.bmp" />
+    <Image Include="box8.bmp" />
+    <Image Include="box9.bmp" />
+    <Image Include="build21.bmp" />
+    <Image Include="building1.bmp" />
+    <Image Include="building11.bmp" />
+    <Image Include="building4.bmp" />
+    <Image Include="building5.bmp" />
+    <Image Include="building8.bmp" />
+    <Image Include="chair.bmp" />
+    <Image Include="clock.bmp" />
+    <Image Include="column.bmp" />
+    <Image Include="east.bmp" />
+    <Image Include="edoor.bmp" />
+    <Image Include="elevaterdoor.bmp" />
+    <Image Include="f2.bmp" />
+    <Image Include="floor1.bmp" />
+    <Image Include="floor2.bmp" />
+    <Image Include="floor4.bmp" />
+    <Image Include="floor5.bmp" />
+    <Image Include="food2.bmp" />
+    <Image Include="food4.bmp" />
+    <Image Include="food5.bmp" />
+    <Image Include="football.bmp" />
+    <Image Include="football2.bmp" />
+    <Image Include="fountain.bmp" />
+    <Image Include="iron.bmp" />
+    <Image Include="iron2.bmp" />
+    <Image Include="jeans.bmp" />
+    <Image Include="land.bmp" />
+    <Image Include="laptop.bmp" />
+    <Image Include="laptop2.bmp" />
+    <Image Include="leaf3.bmp" />
+    <Image Include="logo.bmp" />
+    <Image Include="logo2.bmp" />
+    <Image Include="logo3.bmp" />
+    <Image Include="mallfloor.bmp" />
+    <Image Include="mallfloor2.bmp" />
+    <Image Include="mallroof.bmp" />
+    <Image Include="mallwall.bmp" />
+    <Image Include="mallwall2.bmp" />
+    <Image Include="mallwall3.bmp" />
+    <Image Include="mallwall4.bmp" />
+    <Image Include="mallwall5.bmp" />
+    <Image Include="menu.bmp" />
+    <Image Include="north.bmp" />
+    <Image Include="parking_lot.bmp" />
+    <Image Include="pic4.bmp" />
+    <Image Include="pics1.bmp" />
+    <Image Include="pics10.bmp" />
+    <Image Include="pics11.bmp" />
+    <Image Include="pics2.bmp" />
+    <Image Include="pics3.bmp" />
+    <Image Include="pics5.bmp" />
+    <Image Include="pics6.bmp" />
+    <Image Include="pics7.bmp" />
+    <Image Include="pics8.bmp" />
+    <Image Include="pics9.bmp" />
+    <Image Include="road.bmp" />
+    <Image Include="shirt1.bmp" />
+    <Image Include="shirt2.bmp" />
+    <Image Include="shirt3.bmp" />
+    <Image Include="shirt4.bmp" />
+    <Image Include="shop2pic.bmp" />
+    <Image Include="shop2wall.bmp" />
+    <Image Include="shop2wall2.bmp" />
+    <Image Include="shopping.bmp" />
+    <Image Include="shopping2.bmp" />
+    <Image Include="sign.bmp" />
+    <Image Include="sign4.bmp" />
+    <Image Include="sing2.bmp" />
+    <Image Include="south.bmp" />
+    <Image Include="spoon1.bmp" />
+    <Image Include="spoon3.bmp" />
+    <Image Include="sthirt5.bmp" />
+    <Image Include="table.bmp" />
+    <Image Include="table1.bmp" />
+    <Image Include="table33.bmp" />
+    <Image Include="tkan.bmp" />
+    <Image Include="top1.bmp" />
+    <Image Include="top10.bmp" />
+    <Image Include="top2.bmp" />
+    <Image Include="top3.bmp" />
+    <Image Include="top4.bmp" />
+    <Image Include="tshirt1.bmp" />
+    <Image Include="tshirt2.bmp" />
+    <Image Include="tshirt3.bmp" />
+    <Image Include="tshirt4.bmp" />
+    <Image Include="up.bmp" />
+    <Image Include="wallm.bmp" />
+    <Image Include="wallm2.bmp" />
+    <Image Include="wallm3.bmp" />
+    <Image Include="wardrobe.bmp" />
+    <Image Include="water.bmp" />
+    <Image Include="water2.bmp" />
+    <Image Include="west.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bacarra Resort Fountain.3ds" />
+    <None Include="Cutlery.3DS" />
+    <None Include="spoon.3ds" />
+    <None Include="Tree1.3ds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Elevator - SOUND EFFECT.wav" />
+    <Media Include="FOREST_BIRDS_SOUND.wav" />
+    <Media Include="soundpeople.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

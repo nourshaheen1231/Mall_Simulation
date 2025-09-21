@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3DTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_3DS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3DTexture.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_3DS.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="road.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="building1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="f2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="building5.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="b2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="b3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="block.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="tkan.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="building11.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="building4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="parking_lot.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="land.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="leaf3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bat.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bark_loo.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="up.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="south.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="east.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="north.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="west.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="table.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mallwall.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mallwall2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mallwall3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mallfloor.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mallwall4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mallwall5.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="column.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wallm.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wallm2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wallm3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mallfloor2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="floor1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="floor2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="floor4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="floor5.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="spoon1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mallroof.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="iron.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="iron2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="fountain.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="water.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="water2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="elevaterdoor.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="edoor.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="spoon3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="chair.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="table1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="food2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="food5.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="food4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="menu.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="sign.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="clock.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="logo.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="logo2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="laptop.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="laptop2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="build21.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="shop2wall.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="shop2wall2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="tshirt1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="tshirt2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="shirt1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="shirt2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="top1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="top2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="top3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="tshirt3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="tshirt4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="shirt3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="shirt4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="sthirt5.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="top4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="top10.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="table33.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="wardrobe.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="jeans.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="sing2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="sign4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="shop2pic.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="shopping.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="shopping2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bag1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bag2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bag3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bag4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bag5.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bag6.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="football.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="football2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="building8.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bg1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bg2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bg3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bg5.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bg6.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bg7.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bg8.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box5.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box6.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box7.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box8.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box9.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box10.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box11.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box12.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box13.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box14.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="box15.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="logo3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics3.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pic4.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics5.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics6.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics7.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics8.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics9.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics10.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="pics11.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tree1.3ds">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Bacarra Resort Fountain.3ds">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="spoon.3ds">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Cutlery.3DS">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Elevator - SOUND EFFECT.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="soundpeople.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="FOREST_BIRDS_SOUND.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
